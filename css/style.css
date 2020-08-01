@@ -4,8 +4,10 @@ body{
 button{
   padding: 9px 27px;
   border-radius: 23px;
-  background: rgba(0,0,0,0.4);
-  border: 1px solid white;
+  background: rgba(0,0,0,0.2);
+  border: 3px solid rgba(255, 236, 179, 0.68);
+  width: 20%;
+  outline: none;
 }
 .blur{
   min-height: 100vh;
@@ -16,7 +18,7 @@ button{
 
 .first{
   height: 100vh;
-  background-image: url(../img/first-bg.jpg);
+  background-image: url(../img/bg.JPG);
   background-size: cover;
   background-position: 35% ;
 }
@@ -38,7 +40,7 @@ button{
   font-weight: 700;
 }
 .first__container div:last-child{
-  margin-top: 50px;
+  margin-top: 25%;
 }
 .first__container div:last-child button:first-child{
   margin-right: 15px;
@@ -80,7 +82,7 @@ button{
   text-align: center;
 }
 .second .content__img img{
-  width: 60%;
+  width: 100%;
 }
 .third__container{
   width: 40vw;
@@ -104,6 +106,10 @@ button{
   width: 70vw;
   margin: 100px auto;
   text-align: center;
+}
+.forth button{
+  width: 50%;
+  max-width: 350px;
 }
 .forth .container__title{
   font-size: 50px;
@@ -234,11 +240,15 @@ button{
   background-size: cover;
   background-position: 30%;
 }
+.seventh .blur{
+  background: linear-gradient(0deg, rgba(0,0,0,0.4) 0%, rgba(255,255,255,0) 100%);
+}
 .seventh__container{
   width: 70vw;
   margin: 0 auto;
   padding: 200px 0;
   text-align: center;
+  text-shadow: 0 0 10px white;
 }
 .seventh .container__title,.sixth .container__title{
   font-size: 50px;
